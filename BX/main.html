@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>EscapeRoomTheGame</title>
+    <link rel="stylesheet" href="css/plugin/reset.css">
+    <link rel="stylesheet" href="css/plugin/fullPage.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <script src="js/plugin/jquery-1.8.1.min.js"></script>
+    <script src="js/plugin/jquery.easing.1.3.min.js"></script>
+    <script src="js/plugin/prefixfree.min.js"></script>
+    <script src="js/plugin/respond.min.js"></script>
+    <script src="js/plugin/jquery.nicescroll.min.js"></script>
+    <script src="js/plugin/jquery.fullPage.min.js"></script>
+    <script src="js/plugin/jquery.slides.js"></script>
+    <script src="js/plugin/logic.js"></script>
+    <script src="js/plugin/drag.js"></script>
+    <script src="js/main.js"></script>
+    <!--[if It IE 9] <script src="js/respond.min.js"></script> <[endif]-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="favicon" href="" type="image/x-icon">
+
+
+
+</head>
+<body>
+
+<!--------  fix section  -------->
+
+
+
+<!--</section>-->
+<div class='cursor' id="cursor"></div>
+
+
+<section id="menu-trigger-section">
+    <div class="menu-home">
+        <img src="images/main/main02/menu/home_on.png" alt="menu-home"/></div>
+    <div class="menu-about">
+        <img src="images/main/main02/menu/about.png"
+             onmouseover="this.src='images/main/main02/menu/about_on.png'"
+             onmouseout="this.src='images/main/main02/menu/about.png'" alt="menu-about"/></div>
+    <div class="menu-escape">
+        <img src="images/main/main02/menu/escape.png"
+             onmouseover="this.src='images/main/main02/menu/escape_on.png'"
+             onmouseout="this.src='images/main/main02/menu/escape.png'" alt="menu-escape"/>
+        <img src="images/main/main02/menu/escape-arrow.png" onmouseover="this.src='images/main/main02/menu/escape-arrow_on.png'"
+             onmouseout="this.src='images/main/main02/menu/escape-arrow.png'" alt="escape-arrow"/>
+        <div class="menu-escape-bottom">
+            <img src="images/main/main02/menu/menu-small-kidnapped.png" onmouseover="this.src='images/main/main02/menu/menu-small-kidnapped_on.png'"
+                 onmouseout="this.src='images/main/main02/menu/menu-small-kidnapped.png'" alt="small-kid"/>
+            <img src="images/main/main02/menu/menu-small-prison.png" onmouseover="this.src='images/main/main02/menu/menu-small-prison_on.png'"
+                 onmouseout="this.src='images/main/main02/menu/menu-small-prison.png'" alt="small-prison"/>
+            <img src="images/main/main02/menu/menu-small-asylum.png" onmouseover="this.src='images/main/main02/menu/menu-small-asylum_on.png'"
+                 onmouseout="this.src='images/main/main02/menu/menu-small-asylum.png'" alt="small-asylum"/>
+        </div>
+    </div>
+    <div class="menu-how">
+        <img src="images/main/main02/menu/how.png"
+             onmouseover="this.src='images/main/main02/menu/how_on.png'"
+             onmouseout="this.src='images/main/main02/menu/how.png'" alt="menu-how"/></div>
+    <div class="menu-where">
+        <img src="images/main/main02/menu/where.png"
+             onmouseover="this.src='images/main/main02/menu/where_on.png'"
+             onmouseout="this.src='images/main/main02/menu/where.png'" alt="menu-where"/></div>
+</section>
+
+<a class="menu-trigger" href="#">
+    <span></span>
+    <span></span>
+    <span></span>
+</a>
+
+
+<header id="header">
+
+</header><!-- header end -->
+
+
+<!----------  fix section  end ---------->
+
+
+
+
+
+<main id="fullpage" class="container">
+    <section id="section01" class="section">
+        <div class="glitch">
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <div class="glitch__item"></div>
+            <h1 class="glitch__title">The Ultimate Escape Room</h1>
+            <h2 class="glitch__title2">Experience at home</h2>
+            <!--  <h1 class="glitch__title">Glitch</h1>-->
+        </div>
+        <article id="background-frame">
+            <div class="left-frame1"><img src="images/main/main01/left-frame01.png" alt="left-frame1" class="layer" data-depth="0.1"/></div>
+            <div class="left-frame2"><img src="images/main/main01/left-frame02.png" alt="left-frame2" class="layer" data-depth="-0.1"/></div>
+            <div class="left-group1"><img src="images/main/main01/left-group1.png" alt="frame-group1" class="layer" data-depth="0.07"/></div>
+            <div class="left-group2"><img src="images/main/main01/left-group2.png" alt="frame-group2" class="layer" data-depth="0.2"/></div>
+            <div class="left-group3"><img src="images/main/main01/left-group3.png" alt="frame-group3" class="layer" data-depth="-0.06"/></div>
+            <div class="left-group4"><img src="images/main/main01/left-group4.png" alt="frame-group4" class="layer" data-depth="-0.1"/></div>
+            <div class="left-group5"><img src="images/main/main01/left-group5.png" alt="frame-group5" class="layer" data-depth="0.1"/></div>
+            <div class="left-group6"><img src="images/main/main01/left-group6.png" alt="frame-group6" class="layer" data-depth="-0.1"/></div>
+
+            <div class="right-frame1"><img src="images/main/main01/right-frame01.png" alt="right-frame1" class="layer" data-depth="0.1"/></div>
+            <div class="right-frame2"><img src="images/main/main01/right-frame02.png" alt="right-frame2" class="layer" data-depth="0.07"/></div>
+            <div class="right-group1"><img src="images/main/main01/right-group1.png" alt="right-group1" class="layer" data-depth="-0.1"/></div>
+            <div class="right-group2"><img src="images/main/main01/right-group2.png" alt="right-group2" class="layer" data-depth="0.04"/></div>
+            <div class="right-group3"><img src="images/main/main01/right-group3.png" alt="right-group3" class="layer" data-depth="0.1" /></div>
+            <div></div>
+        </article>
+
+
+        <article class="cctv-front"></article>
+        <article class="cctv-left"></article>
+        <article class="cctv-right"></article>
+
+        <div class="handrail"><img src="images/main/main01/main01_handrail.png" alt="hand-rail"/></div>
+        <div class="floor"><img src="images/main/main01/main01_floor.png" alt="floor"/></div>
+        <div class="type1"><img src="images/main/main01/scroll01.png" alt="scroll01"/></div>
+        <div class="type2"><img src="images/main/main01/scroll02.png" alt="scroll02"/></div>
+
+
+        <div id="button-frame">
+            <span><img class="button-frame-arrow" src="images/main/main01/button01-arrow_on.png" alt="button01-arrow"/></span>
+            <img class="button-frame-text" src="images/main/main01/button01-type.png" alt="button01-type"/>
+        </div>
+
+        <div class="mouse"></div>
+
+    </section>
+    <!-- scene01 end -->
+
+
+    <section id="section02" class="section">
+
+        <div class="glitch2">
+            <div class="glitch2__item"></div>
+            <div class="glitch2__item"></div>
+            <div class="glitch2__item"></div>
+            <div class="glitch2__item"></div>
+            <div class="glitch2__item"></div>
+            <!--  <h1 class="glitch__title">Glitch</h1>-->
+        </div>
+
+        <div class="figure"><img src="images/main/main02/figure.png" alt="figure" class="layer" data-depth="-0.03"/></div>
+        <div class="treasure-box">
+            <img src="images/main/main02/treasure-box.png" alt="treasure-box"
+                 onmouseover="this.src='images/main/main02/treasure-box_on.png'"
+                 onmouseout="this.src='images/main/main02/treasure-box.png'" class="layer" data-depth="-0.03"/></div>
+        <div class="title-mini"><img src="images/main/main02/title_escaperoom.png" alt="title-mini"/></div>
+
+        <div class="left-chair"><img src="images/main/main02/left-chair.png" alt="left-chair" class="layer" data-depth="-0.05"/></div>
+        <div class="right-chair"><img src="images/main/main02/right-chair.png" alt="right-chair" class="layer" data-depth="-0.05"/></div>
+        <div class="main02-frame">
+            <img src="images/main/main02/main02_frame.png" alt="main02-frame"
+                 onmouseover="this.src='images/main/main02/main02_frame_on.png'"
+                 onmouseout="this.src='images/main/main02/main02_frame.png'" class="layer" data-depth="-0.03"/></div>
+        <div class="title-whereToBuy"><img src="images/main/main02/title_wheretobuy.png" alt="where"/></div>
+
+        <div class="desk"><img src="images/main/main02/desk.png" alt="desk" class="layer" data-depth="-0.03"></div>
+        <div class="computer">
+            <img src="images/main/main02/computer.png" alt="computer"
+                                   onmouseover="this.src='images/main/main02/computer_on.png'"
+                                   onmouseout="this.src='images/main/main02/computer.png'" class="layer" data-depth="-0.03"/></div>
+        <div class="title-howToPlay"><img src="images/main/main02/title_howtoplay.png" alt="title-howtoplay"></div>
+
+        <div class="main-book">
+            <img src="images/main/main02/main_book.png" alt="main-book"
+                 onmouseover="this.src='images/main/main02/main_book_on.png'"
+                 onmouseout="this.src='images/main/main02/main_book.png'" class="layer" data-depth="-0.02"/></div>
+        <div class="title-about"><img src="images/main/main02/title_about.png" alt="title-about"/></div>
+        <div class="book2"><img src="images/main/main02/book1.png" alt="book2" class="layer" data-depth="-0.02"/></div>
+
+        <div class="title-menu"><img src="images/main/main02/title_menu.png" alt="title-menu"/></div>
+        <div class="en"><img src="images/main/main02/title_en.png" alt="en"/></div>
+        <div class="kr"><img src="images/main/main02/title_kr.png" alt="kr"/></div>
+
+        <div class="pull-hand"><a href="#"><img src="images/main/main02/pull-hand.png" alt="pull-hand"/></a></div>
+
+
+
+    </section><!-- scene02 end -->
+
+
+</main><!-- wrap end -->
+
+
+
+
+
+<!----------  pop section  ---------->
+
+<div class="sc1-pop1"><!---- pull ----->
+
+    <div class="pop1-type"><img src="images/main/main02/popup/pull-main-type.jpg" alt="pop-type"/></div>
+
+
+    <div class="email-box">
+        <label>
+            <input type="email" placeholder="EXAMPLE@EMAIL.COM">
+        <img src="images/main/main02/popup/email-box.png" alt="email-box"/>
+        </label>
+    </div>
+    <div class="submit-box"><img src="images/main/main02/popup/submit-box.png" onmouseover="this.src='images/main/main02/popup/submit-box_on.png'"
+                                 onmouseout="this.src='images/main/main02/popup/submit-box.png'" alt="submit-box"/></div>
+    <div class="left-arrow"><img src="images/main/main02/popup/left-arrow.png" alt="arrow1"/></div>
+    <div class="right-arrow"><img src="images/main/main02/popup/right-arrow.png" alt="arrow2"/></div>
+
+
+
+    <div class="ios hover">
+        <a href="https://apps.apple.com/us/app/escape-room-the-game/id1119991194?ls=1" target="_blank">
+            <img src="images/main/main02/popup/ios-down.png" onmouseover="this.src='images/main/main02/popup/ios-down_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/ios-down.png'" alt="ios"/></a></div>
+    <div class="android">
+        <a href="https://play.google.com/store/apps/details?id=nl.identitygames.escaperoom" target="_blank">
+            <img src="images/main/main02/popup/android-down.png" onmouseover="this.src='images/main/main02/popup/android-down_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/android-down.png'" alt="android"/></a></div>
+    <div class="download-type"><img src="images/main/main02/popup/download-type.jpg" alt="download-type"/></div>
+
+        <div class="instagram">
+            <a href="https://www.instagram.com/escaperoomthegame/?hl=en" target="_blank">
+            <img src="images/main/main02/popup/instagram.png" onmouseover="this.src='images/main/main02/popup/instagram_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/instagram.png'" alt="instagram"/></a></div>
+        <div class="facebook">
+            <a href="https://www.facebook.com/EscapeRoomTheGameNL/" target="_blank">
+            <img src="images/main/main02/popup/facebook.png" onmouseover="this.src='images/main/main02/popup/facebook_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/facebook.png'" alt="facebook"/></a></div>
+        <div class="youtube">
+            <a href="https://www.youtube.com/channel/UC4yCXD38Ew-YuteBynKAM6g" target="_blank">
+            <img src="images/main/main02/popup/youtube.png" onmouseover="this.src='images/main/main02/popup/youtube_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/youtube.png'" alt="yotube"/></a></div>
+
+    <div class="email-icon">
+        <a href="mailto:customercare@spinmaster.com" title="send mail" target="_blank">
+        <img src="images/main/main02/popup/email-icon.png" onmouseover="this.src='images/main/main02/popup/email-icon_on.png'"
+             onmouseout="this.src='images/main/main02/popup/email-icon.png'" alt="email-icon"/></a></div>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+
+</div><!--pop end-->
+
+<div class="sc1-pop2"><!---- escape room mini ----->
+    <div class="pop2-type1"></div>
+    <div class="pop2-type2 typo1"><img src="images/main/main02/popup/mini-type2.jpg" alt="mini-type2"/></div>
+    <div class="pop2-type3 typo1"><img src="images/main/main02/popup/mini-type3.jpg" alt="mini-type3"/></div>
+
+        <div class="kidnapped content1">
+            <a href="#">
+            <img src="images/main/main02/popup/kidnapped.png" onmouseover="this.src='images/main/main02/popup/kidnapped_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/kidnapped.png'" alt="kidnapped"/></a></div>
+
+        <div class="prison-island content1">
+            <a href="#">
+                <img src="images/main/main02/popup/prison-island.png" onmouseover="this.src='images/main/main02/popup/prison-island_on.png'"
+                             onmouseout="this.src='images/main/main02/popup/prison-island.png'" alt="prison"/></a></div>
+
+        <div class="asylum content1">
+            <a href="#">
+                <img src="images/main/main02/popup/asylum.png" onmouseover="this.src='images/main/main02/popup/asylum_on.png'"
+                     onmouseout="this.src='images/main/main02/popup/asylum.png'" alt="asylum"/></a></div>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a></div>
+
+
+</div><!--pop end-->
+
+<div class="sc1-pop3"><!---- how to play----->
+    <div class="pop3-type1"></div>
+    <div class="pop3-type2 typo1"><img src="images/main/main02/popup/how-type2.jpg" alt="how-type2"/></div>
+    <div class="pop3-type3"></div>
+    <div class="pop3-type4 typo1">
+        <a href="https://escaperoomthegame.com/images/en-US/Escape_Room_Playingrules_ENG.pdf"><img src="images/main/main02/popup/how-type-here.jpg" alt="how-here"/></a>
+    </div>
+
+    <div class="video-deco typo1"><img src="images/main/main02/popup/video_deco.png" alt="video-deco"/></div>
+    <video src="escape-room-us.mp4" class="video" width="803px" height="451px" controls></video>
+    <div class="play-button typo1-1">
+        <img src="images/main/main02/popup/play-button.png" onmouseover="this.src='images/main/main02/popup/play-button_on.png'"
+             onmouseout="this.src='images/main/main02/popup/play-button.png'" alt="play-button"/>
+    </div>
+    <div class="pause-button content1">
+        <img src="images/main/main02/popup/pause-button.png" onmouseover="this.src='images/main/main02/popup/pause-button_on.png'"
+             onmouseout="this.src='images/main/main02/popup/pause-button.png'" alt="pause-button"/></div>
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a></div>
+
+
+
+</div>
+
+<div class="sc1-pop4"><!---- about ----->
+
+        <div class="about-type1"></div>
+        <div class="about-type2 typo1"><img src="images/main/main02/popup/popup4/about-type2.jpg" alt="about2"/></div>
+
+    <div class="wrap1">
+        <div class="about-photo content1"><img src="images/main/main02/popup/popup4/about-photo1.png" alt="about-photo1"/></div>
+    <div class="about-type3 content1"><img src="images/main/main02/popup/popup4/about-type3.png" alt="about-type3"/></div>
+    <div class="about-type4 content1"><img src="images/main/main02/popup/popup4/about-type4.png" alt="about-type4"/></div>
+
+    </div>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a></div>
+
+
+</div>
+
+<div class="sc1-pop5"><!---- where to buy----->
+    <div class="where-type1"></div>
+    <div class="where-type2 typo1"><img src="images/main/main02/popup/popup5/where-type2.jpg" alt="where-type2"/></div>
+    <div class="where-type3"></div>
+
+
+    <div class="icon1 content1">
+        <a href="https://www.amazon.com/-/ko/dp/B07SMTB95J/ref=sr_1_1?dchild=1&keywords=escape+the+room+2+player&qid=1619801319&sr=8-1" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon1.png" onmouseover="this.src='images/main/main02/popup/popup5/icon1_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon1.png'" alt="icon1"/></a></div>
+        <div class="icon2 content1">
+            <a href="https://www.bestbuy.com" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon2.png" onmouseover="this.src='images/main/main02/popup/popup5/icon2_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon2.png'" alt="icon2"/></a></div>
+        <div class="icon3 content1">
+            <a href="https://www.target.com" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon3.png" onmouseover="this.src='images/main/main02/popup/popup5/icon3_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon3.png'" alt="icon3"/></a></div>
+        <div class="icon4 content1">
+            <a href="https://www.walmart.com/ip/Identity-Games-Escape-Room-The-Game-2-Player-Edition-with-2-Escape-Rooms/835687295?athcpid=835687295&athpgid=athenaItemPage&athcgid=null&athznid=PWVUB&athieid=v0&athstid=CS020&athguid=c1989544-007-17926f780685e0&athancid=null&athena=true" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon4.png" onmouseover="this.src='images/main/main02/popup/popup5/icon4_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon4.png'" alt="icon4"/></a></div>
+        <div class="icon5 content1">
+            <a href="https://www.toysrus.com" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon5.png" onmouseover="this.src='images/main/main02/popup/popup5/icon5_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon5.png'" alt="icon5"/></a></div>
+
+        <div class="icon6 content1">
+            <a href="https://apps.apple.com/us/app/escape-room-the-game/id1119991194?ls=1" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon6-ios.png" onmouseover="this.src='images/main/main02/popup/popup5/icon6-ios_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon6-ios.png'" alt="icon6"/></a></div>
+        <div class="icon7 content1">
+            <a href="https://play.google.com/store/apps/details?id=nl.identitygames.escaperoom" target="_blank">
+            <img src="images/main/main02/popup/popup5/icon7-android.png" onmouseover="this.src='images/main/main02/popup/popup5/icon7-android_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/popup5/icon7-android.png'" alt="icon7"/></a></div>
+
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a></div>
+</div>
+
+<!---- new-popup ----->
+<div id="sc1_2-pop4">
+    <div class="kidnapped_type"><img src="images/main/new_window/kidnapped_type.png" alt="kidnapped_type"/></div>
+
+<!--        <div class="left-button">-->
+<!--            <img src="images/main/new_window/left-button.png" alt="left-button"/></div>-->
+<!--        <div class="right-button">-->
+<!--            <img src="images/main/new_window/right_button.png" alt="right-button"/></div>-->
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story_on.png" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="downloads"/></div>
+
+    <div class="text-container">
+        <div class="kidnapped-text">
+            <img src="images/main/new_window/kidnapped-text.png" alt="kidnapped-text"/> </div>
+    </div>
+
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop4-walkthrough">
+    <div class="kidnapped_type"><img src="images/main/new_window/kidnapped_type.png" alt="kidnapped_type"/></div>
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough_on.png" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="downloads"/></div>
+
+    <div class="walkThrough-quiz"><img src="images/main/main02/popup/walkthrough_quiz.jpg" alt="walkthrough-quiz"/></div>
+
+    <label>
+        <input type="text" placeholder="answer">
+        <img src="images/main/main02/popup/check_answer.png" onmouseover="this.src='images/main/main02/popup/check_answer_on.png'"
+             onmouseout="this.src='images/main/main02/popup/check_answer.png'" alt="check-answer"/>
+    </label>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop4-downloads">
+    <div class="kidnapped_type"><img src="images/main/new_window/kidnapped_type.png" alt="kidnapped_type"/></div>
+
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads_on.png" alt="downloads"/></div>
+
+    <div class="downloads-kidnapped">
+        <a href="https://escaperoomthegame.com/images/ko-KR/Download/Escape_Room_Mini_Kidnapped_Digilock_Print_KR.pdf" target="_blank">
+            <img src="images/main/main02/popup/kidnapped-download.png" onmouseover="this.src='images/main/main02/popup/kidnapped-download_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/kidnapped-download.png'" alt="kidnapped-download"/></a>
+    </div>
+
+<div class="line"><img src="images/main/main02/popup/downloads-line.png" alt="line"/></div>
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<!---- new-popup ----->
+<div id="sc1_2-pop5">
+    <div class="prison-island-type"><img src="images/main/new_window/prison-type.png" alt="prison-type"/></div>
+
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story_on.png" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="story3"/></div>
+
+
+    <div class="text-container">
+        <div class="prison-text">
+            <img src="images/main/new_window/prison-text.png" alt="prison-text"/></div>
+    </div>
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop5-walkthrough">
+    <div class="prison-island-type"><img src="images/main/new_window/prison-type.png" alt="prison-type"/></div>
+
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough_on.png" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="story3"/></div>
+
+    <div class="walkThrough-quiz2"><img src="images/main/main02/popup/walkthrough_quiz2.png" alt="walkthrough-quiz2"/></div>
+
+    <label>
+        <input type="text" placeholder="answer">
+        <img src="images/main/main02/popup/check_answer.png" onmouseover="this.src='images/main/main02/popup/check_answer_on.png'"
+             onmouseout="this.src='images/main/main02/popup/check_answer.png'" alt="check-answer"/>
+    </label>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop5-downloads">
+    <div class="prison-island-type"><img src="images/main/new_window/prison-type.png" alt="prison-type"/></div>
+
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads_on.png" alt="story3"/></div>
+
+
+    <div class="downloads-prison">
+        <a href="https://escaperoomthegame.com/images/downloads/en-us/Escape_Room_2P_Prison_Island_Ventilation_Diagram_US_Print.pdf" target="_blank">
+            <img src="images/main/main02/popup/prison-download.png" onmouseover="this.src='images/main/main02/popup/prison-download_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/prison-download.png'" alt="kidnapped-download"/></a>
+    </div>
+
+    <div class="line"><img src="images/main/main02/popup/downloads-line.png" alt="line"/></div>
+
+
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<!---- new-popup ----->
+<div id="sc1_2-pop6">
+    <div class="asylum-type"><img src="images/main/new_window/asylum-type.png" alt="asylum-type"/></div>
+
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story_on.png" alt="story1-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="downloads"/></div>
+
+
+    <div class="text-container">
+        <div class="asylum-text">
+            <img src="images/main/new_window/asylum-text.png" alt="asylum-text"/></div>
+    </div>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop6-walkthrough">
+    <div class="asylum-type"><img src="images/main/new_window/asylum-type.png" alt="asylum-type"/></div>
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story1-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough_on.png" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads.png" onmouseover="this.src='images/main/new_window/downloads_on.png'"
+             onmouseout="this.src='images/main/new_window/downloads.png'" alt="downloads"/></div>
+
+    <div class="walkThrough-quiz3"><img src="images/main/main02/popup/walkthrough_quiz3.png" alt="walkthrough-quiz3"/></div>
+
+    <label>
+        <input type="text" placeholder="answer">
+        <img src="images/main/main02/popup/check_answer.png" onmouseover="this.src='images/main/main02/popup/check_answer_on.png'"
+             onmouseout="this.src='images/main/main02/popup/check_answer.png'" alt="check-answer"/>
+    </label>
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+<div id="sc1_2-pop6-downloads">
+    <div class="asylum-type"><img src="images/main/new_window/asylum-type.png" alt="asylum-type"/></div>
+
+    <div class="type_background"><img src="images/main/new_window/type_background.png" alt="type_background"/></div>
+    <div class="story">
+        <img src="images/main/new_window/story.png" onmouseover="this.src='images/main/new_window/story_on.png'"
+             onmouseout="this.src='images/main/new_window/story.png'" alt="story1-on"/></div>
+    <div class="walkThrough">
+        <img src="images/main/new_window/walkthrough.png" onmouseover="this.src='images/main/new_window/walkthrough_on.png'"
+             onmouseout="this.src='images/main/new_window/walkthrough.png'" alt="walkThrough"/></div>
+    <div class="downloads">
+        <img src="images/main/new_window/downloads_on.png" alt="downloads"/></div>
+
+
+    <div class="downloads-prison">
+        <a href="https://escaperoomthegame.com/images/downloads/en-us/Escape_Room_2P_Asylum_Floor_plan_US_Print.pdf" target="_blank">
+            <img src="images/main/main02/popup/asylum-download.png" onmouseover="this.src='images/main/main02/popup/asylum-download_on.png'"
+                 onmouseout="this.src='images/main/main02/popup/asylum-download.png'" alt="kidnapped-download"/></a>
+    </div>
+
+    <div class="line"><img src="images/main/main02/popup/downloads-line.png" alt="line"/></div>
+
+
+    <div class="close-btn"><a href="#"><img src="images/main/main02/popup/close-btn.png" alt="close-btn"/></a> </div>
+</div>
+
+
+<!--pop end-->
+
+<!----------  pop section  end  ---------->
+
+
+
+<script src="js/plugin/parallax.js"></script>
+
+
+
+
+</body>
+</html>

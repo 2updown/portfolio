@@ -1,0 +1,91 @@
+@charset "utf-8";
+html{
+    overflow-y: scroll;
+}
+
+body {
+    position: relative;
+    min-width: 1200px;
+    font-family: "Dotum", "Arial", sans-serif;
+    font-size: 12px;
+    color: #a43a3a;
+    background: white;
+}
+
+
+
+
+/*section*/
+#header {
+    width: 100%;
+    height: 69px;
+    background: white;
+    position : fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+#header {
+    width: 100%;
+    height: 69px;
+    /*background: black;*/
+    position : fixed;
+    left: 0;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    z-index: 10000;
+}
+
+#header .innerHeader{
+    width: 1780px;
+    height: 67px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+#header .logo {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+}
+
+#header .left > li{
+    float: left;
+    margin-right: 120px;
+    margin-top: 29px;
+}
+#header .left > li:nth-child(1){
+    margin-left: 55px;
+}
+
+#header .right > li{
+    float: right;
+    margin-left: 48px;
+    margin-top: -18px;
+}
+#header .right > li:nth-child(1){
+    margin-top: -10px;
+}
+#header .lnb{
+    position: fixed;
+    top: 69px;
+    left: 0;
+    z-index: 10000;
+}
+/*section*/
+#scene01-fix {
+    width: 100%;
+    height: 5377px;
+    background: url("../images/sub1-model.jpg") ;
+    position : absolute;
+    left: 0;
+    top: 0;
+}
+html::-webkit-scrollbar-thumb{
+    background: black;
+
+}
+html::-webkit-scrollbar{
+    width: 4px;
+}

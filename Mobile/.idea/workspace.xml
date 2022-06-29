@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4a66b227-e373-4107-83f5-43ec6a2b9958" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1fx8y2JZvW5IrzDfUCadZBrSh9U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a66b227-e373-4107-83f5-43ec6a2b9958" name="Default Changelist" comment="" />
+      <created>1597148633623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597148633623</updated>
+      <workItem from="1597148635135" duration="643000" />
+      <workItem from="1597217050902" duration="598000" />
+      <workItem from="1616500813942" duration="832000" />
+      <workItem from="1616504458156" duration="27000" />
+      <workItem from="1623473825350" duration="313000" />
+      <workItem from="1640156106991" duration="2219000" />
+      <workItem from="1640158388593" duration="6204000" />
+      <workItem from="1640184817114" duration="462000" />
+      <workItem from="1640185284370" duration="4720000" />
+      <workItem from="1640190114261" duration="13110000" />
+      <workItem from="1640259719299" duration="21836000" />
+      <workItem from="1640363922075" duration="26000" />
+      <workItem from="1640364244031" duration="519000" />
+      <workItem from="1640493477069" duration="26000" />
+      <workItem from="1640510218613" duration="1455000" />
+      <workItem from="1640516495382" duration="24000" />
+      <workItem from="1640516941578" duration="706000" />
+      <workItem from="1640518276735" duration="87000" />
+      <workItem from="1640518366223" duration="141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
